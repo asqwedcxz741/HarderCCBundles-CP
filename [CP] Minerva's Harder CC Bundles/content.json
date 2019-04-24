@@ -35,22 +35,22 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "Spring Crops/O 599 5/190 5 0 24 5 0 192 5 0 400 5 0 250 5 0 188 5 0 591 5 0 597 5 0 252 5 0 433 5 0 248 5 0/5/7",
+				"Pantry/0": "Spring Crops/O 599 5/190 5 0 24 5 0 192 5 0 400 5 0 250 5 0 188 5 0 591 5 0 597 5 0 252 5 0 433 5 0 248 5 0/5/7/Spring Crops",
 				//Spring Crops, needs 7 crops out of 11, rewards 5 regular sprinklers
 				//Uses cauliflower, parsnips, potatoes, strawberries, kale, green beans, tulips, blue jazz, rhubarb, coffee, and garlic
-				"Pantry/1": "Summer Crops/BO 10 1/264 5 0 258 5 0 270 5 0 304 5 0 260 5 0 254 5 0 376 5 0 266 5 0 268 5 0 593 5 0 421 5 0 256 5 0/4/9",
+				"Pantry/1": "Summer Crops/BO 10 1/264 5 0 258 5 0 270 5 0 304 5 0 260 5 0 254 5 0 376 5 0 266 5 0 268 5 0 593 5 0 421 5 0 256 5 0/4/9/Summer Crops",
 				//Summer Crops, needs 9 crops out of 12, rewards 1 bee house
 				//Uses radish, blueberries, corn, hops, hot peppers, melon, poppies, red cabbage, starfruit, summer spangles, sunflowers, and tomatoes
-				"Pantry/2": "Fall Crops/BO 25 1/300 5 0 274 5 0 284 5 0 278 5 0 282 5 0 272 5 0 595 5 0 398 5 0 276 5 0 280 5 0 262 5 0/3/8",
+				"Pantry/2": "Fall Crops/BO 25 1/300 5 0 274 5 0 284 5 0 278 5 0 282 5 0 272 5 0 595 5 0 398 5 0 276 5 0 280 5 0 262 5 0/3/8/Fall Crops",
 				//Fall Crops, needs 8 crops out of 11, rewards 1 seed maker
 				//Uses amaranth, artichoke, beets, bok choy, cranberries, eggplant, fairy roses, grapes, pumpkins, wheat, and yams
-				"Pantry/3": "Quality Crops/BO 12 1/24 5 2 250 5 2 400 5 2 258 5 2 260 5 2 256 5 2 278 5 2 282 5 2 398 5 2 272 5 2/2/8",
+				"Pantry/3": "Quality Crops/BO 12 1/24 5 2 250 5 2 400 5 2 258 5 2 260 5 2 256 5 2 278 5 2 282 5 2 398 5 2 272 5 2/2/8/Quality Crops",
 				//Quality Crops, needs 8 crops out of 10, rewards 1 keg
 				//Uses parsnips, strawberries, blueberries, hot peppers, tomatoes, bok choy, cranberries, grapes, eggplant, and kale
-				"Pantry/4": "Animal Products/BO 24 1/174 5 0 182 5 0 305 5 0 442 5 0 444 5 0 440 5 0 446 5 0 184 5 0 186 5 0 436 5 0 438 5 0 430 5 0/1/10",
+				"Pantry/4": "Animal Products/BO 24 1/174 5 0 182 5 0 305 5 0 442 5 0 444 5 0 440 5 0 446 5 0 184 5 0 186 5 0 436 5 0 438 5 0 430 5 0/1/1/Animal Products",
 				//Animal Products, needs 10 out of 12, rewards 1 mayo machine
 				//Uses large egg, large brown egg, void egg, duck egg, duck feather, wool, rabbits foot, milk, large milk, goat milk, large goat milk, and truffles
-				"Pantry/5": "Artisan Products/BO 165 1/348 5 0 303 5 0 346 5 0 459 5 0 395 5 0 424 5 0 426 5 0 428 5 0 307 5 0 432 5 0 342 5 0 344 5 0/0/12",
+				"Pantry/5": "Artisan Products/BO 165 1/348 5 0 303 5 0 346 5 0 459 5 0 395 5 0 424 5 0 426 5 0 428 5 0 307 5 0 432 5 0 342 5 0 344 5 0/0/12/Artisan Products",
 				//Artisan Products, needs 12 out of 12, rewards 1 auto grabber
 				//Uses wine, pale ale, beer, mead, coffee, cheese, goat cheese, cloth, duck mayo, truffle oil, pickles, and jelly
 
@@ -62,22 +62,22 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Fish Tank/6": "Spring Fish/O 774 30/129 5 0 137 5 0 148 5 0 143 5 0 131 5 0 145 5 0 706 5 0 708 5 0 147 5 0/6/7",
+				"Fish Tank/6": "Spring Fish/O 774 30/129 5 0 137 5 0 148 5 0 143 5 0 131 5 0 145 5 0 706 5 0 708 5 0 147 5 0/6/7/Spring Fish",
 				//Spring fish, needs 7 out of 9, rewards 30 wild bait
 				//Uses anchovy, sardine, bream, smallmouth bass, herring, sunfish, eel, shad, halibut
-				"Fish Tank/7": "Summer Fish/O 703 30/138 5 0 704 5 0 128 5 0 149 5 0 701 5 0 155 5 0 150 5 0 146 5 0/0/7",
+				"Fish Tank/7": "Summer Fish/O 703 30/138 5 0 704 5 0 128 5 0 149 5 0 701 5 0 155 5 0 150 5 0 146 5 0/0/7/Summer Fish",
 				//Summer fish, needs 7 out of 9, rewards 30 magnets
 				//Uses rainbow trout, dorado, pufferfish, octopus, tilapia, super cucumber, red snapper, red mullet
-				"Fish Tank/8": "Fall Fish/O 729 5/139 5 0 154 5 0 699 5 0 705 5 0 140 5 0 136 5 0 734 5 0 700 5 0 142 5 0/5/7",
+				"Fish Tank/8": "Fall Fish/O 729 5/139 5 0 154 5 0 699 5 0 705 5 0 140 5 0 136 5 0 734 5 0 700 5 0 142 5 0/5/7/Fall Fish",
 				//Fall fish, requires 7 out of 9, rewards 5 Escargot
 				//Uses salmon, sea cucumber, tiger trout, albacore, walleye, largemouth bass, woodskip, bullhead, carp
-				"Fish Tank/9": "Winter Fish/O 728 5/144 5 0 130 5 0 698 5 0 141 5 0 151 5 0 707 5 0 702 5 0 798 5 0 799 5 0/1/7",
+				"Fish Tank/9": "Winter Fish/O 728 5/144 5 0 130 5 0 698 5 0 141 5 0 151 5 0 707 5 0 702 5 0 798 5 0 799 5 0/1/7/Winter Fish",
 				//Winter fish, requires 7 out of 9, rewards 5 fish stew
 				//Uses pike, tuna, sturgeon, perch, squid, lingcod, chub, midnight squid, spook fish
-				"Fish Tank/10": "Specialty Fish/O 730 5/800 5 0 156 5 0 164 5 0 158 5 0 161 5 0 165 5 0 162 5 0/4/7",
+				"Fish Tank/10": "Specialty Fish/O 730 5/800 5 0 156 5 0 164 5 0 158 5 0 161 5 0 165 5 0 162 5 0/4/7/Specialty Fish",
 				//Specialty fish, requires 7 out of 7, rewards 5 lobster bisque
 				//Uses blobfish, ghostfish, sandfish, stonefish, ice pip, scorpion carp, lava eel
-				"Fish Tank/11": "Crab Pot/O 732 5/715 5 0 716 5 0 717 5 0 718 5 0 719 5 0 720 5 0 721 5 0 722 5 0 723 5 0/1/8",
+				"Fish Tank/11": "Crab Pot/O 732 5/715 5 0 716 5 0 717 5 0 718 5 0 719 5 0 720 5 0 721 5 0 722 5 0 723 5 0/1/8/Crab Pot",
 				//Crab pot, requires 8 out of 10, rewards 5 crab cakes
 				//Uses lobster, clam, crayfish, crab, cockle, mussel, shrimp, snail, periwinkle, osyter
 
@@ -89,22 +89,22 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Crafts Room/13": "Spring Foraging/BO 8 1/16 5 0 18 5 0 20 5 0 22 5 0 399 5 0 257 5 0 296 5 0 78 5 0/0/8",
+				"Crafts Room/13": "Spring Foraging/BO 8 1/16 5 0 18 5 0 20 5 0 22 5 0 399 5 0 257 5 0 296 5 0 78 5 0/0/8/Spring Foraging",
 				//Spring foraging, requires 8 out of 8, rewards 1 scarecrow
 				//Uses wild horseradish, daffodil, leek, dandelion, spring onion, morel, salmonberry, cave carrot
-				"Crafts Room/14": "Summer Foraging/BO 15 1/396 5 0 398 5 0 402 5 0 259 5 0 394 5 0 88 5 0 90 5 0/3/7",
+				"Crafts Room/14": "Summer Foraging/BO 15 1/396 5 0 398 5 0 402 5 0 259 5 0 394 5 0 88 5 0 90 5 0/3/7/Summer Foraging",
 				//Summer foraging, requires 7 out of 7, rewards 1 preserves jar 
 				//Uses spice berry, grape, sweet pea, fiddlehead fern, rainbow shell, coconut, cactus fruit
-				"Crafts Room/15": "Fall Foraging/O 773 5/406 5 0 408 5 0 410 5 0 281 5 0 404 5 0 420 5 0 393 5 0/2/7",
+				"Crafts Room/15": "Fall Foraging/O 773 5/406 5 0 408 5 0 410 5 0 281 5 0 404 5 0 420 5 0 393 5 0/2/7/Fall Foraging",
 				//Fall foraging, requires 7 out of 7, rewards 5 life elixers
 				//Uses wild plum, hazelnut, blackberry, chanterelle, common mushroom, red mushroom, coral
-				"Crafts Room/16": "Winter Foraging/O 244 5/412 5 0 414 5 0 416 5 0 418 5 0 283 5 0 392 5 0 397 5 0 422 5 0/6/8",
+				"Crafts Room/16": "Winter Foraging/O 244 5/412 5 0 414 5 0 416 5 0 418 5 0 283 5 0 392 5 0 397 5 0 422 5 0/6/8/Winter Foraging",
 				//Winter foraging, requires 8 out of 8, rewards 5 roots platters
 				//Uses winter root, crystal fruit, snow yam, crocus, holly, nautilus shell, sea urchin, purple mushroom
-				"Crafts Room/17": "Construction/BO 13 1/388 99 0 388 99 0 390 99 0 390 99 0 709 10 0 709 10 0 330 10 0 771 10 0/4/8",
+				"Crafts Room/17": "Construction/BO 13 1/388 99 0 388 99 0 390 99 0 390 99 0 709 10 0 709 10 0 330 10 0 771 10 0/4/8/Construction",
 				//Construction, requires 8 out of 8, rewards 1 furnace
 				//Uses wood x2, stone x2, hardwood x2, clay, fiber
-				"Crafts Room/19": "Crafting/BO 62 1/724 5 0 725 5 0 726 5 0 382 5 0 787 5 0 428 5 0 92 5 0/1/7",
+				"Crafts Room/19": "Crafting/BO 62 1/724 5 0 725 5 0 726 5 0 382 5 0 787 5 0 428 5 0 92 5 0/1/7/Crafting",
 				//Crafting, requires 7 out of 7, rewards 1 garden pot
 				//Uses maple syrup, oak resin, pine tar, coal, battery pack, sap, cloth
 			},
@@ -115,13 +115,13 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Boiler Room/20": "Blacksmith's/O 621 5/334 5 0 335 5 0 336 5 0 337 5 0 378 5 0 380 5 0 384 5 0 386 5 0/2/6",
+				"Boiler Room/20": "Blacksmith's/O 621 5/334 5 0 335 5 0 336 5 0 337 5 0 378 5 0 380 5 0 384 5 0 386 5 0/2/6/Blacksmith's",
 				//Blacksmith, requires 6 out of 8, rewards 5 quality sprinklers
 				//Uses copper bar, iron bar, gold bar, iridium bar, copper ore, iron ore, gold ore, iridium ore
-				"Boiler Room/21": "Geologist's/O 74 1/68 5 0 66 5 0 62 5 0 70 5 0 60 5 0 64 5 0 72 5 0/1/7",
+				"Boiler Room/21": "Geologist's/O 74 1/68 5 0 66 5 0 62 5 0 70 5 0 60 5 0 64 5 0 72 5 0/1/7/Geologist's",
 				//Geologist's, requires 7 out of 7, rewards 1 prismatic shard
 				//Uses topaz, amethyst, aquamarine, jade, emerald, ruby, diamond
-				"Boiler Room/22": "Adventurer's/R 527 1/684 50 0 766 50 0 767 25 0 768 10 0 769 10 0/1/4",
+				"Boiler Room/22": "Adventurer's/R 527 1/684 50 0 766 50 0 767 25 0 768 10 0 769 10 0/1/4/Adventurer's",
 				//Adventurer's, requires 4 out of 5, rewards 1 iridium band
 				//Uses bug meat, slime, bat wing, solar essence, void essence
 				
@@ -133,13 +133,13 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Vault/23": "4,000g/O 239 5/-1 4000 4000/4",
+				"Vault/23": "4,000g/O 239 5/-1 4000 4000/4//4,000g",
 				//Vault 1, requires 4000G, rewards 5 stuffing
-				"Vault/24": "7,000g/O 386 30/-1 7000 7000/2",
+				"Vault/24": "7,000g/O 386 30/-1 7000 7000/2//7,000g",
 				//Vault 2, requires 7000G, rewards 30 mega bombs
-				"Vault/25": "14,000g/BO 139 1/-1 14000 14000/3",
+				"Vault/25": "14,000g/BO 139 1/-1 14000 14000/3//14,000g",
 				//Vault 3, requires 14,000G, rewards 1 raccoon rarecrow
-				"Vault/26": "35,000g/O 645 5/-1 35000 35000/1",
+				"Vault/26": "35,000g/O 645 5/-1 35000 35000/1//35,000g",
 				//Vault 4, requires 35,000G, rewards 5 iridium sprinklers
 				
 			},
@@ -150,24 +150,127 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/31": "Saloon Menu/O 230 15/608 5 0 727 5 0 648 5 0 201 5 0 215 5 0 231 5 0 212 5 0 214 5 0/4/6",
+				"Bulletin Board/31": "Saloon Menu/O 230 15/608 5 0 727 5 0 648 5 0 201 5 0 215 5 0 231 5 0 212 5 0 214 5 0/4/6/Saloon Menu",
 				//Saloon Menu, requires 6 out of 8, rewards 15 red plates
 				//Uses pumpkin pie, chowder, coleslaw, complete breakfast, pepper poppers, eggplant parmesan, salmon dinner, crispy bass
-				"Bulletin Board/32": "Field Research/BO 20 1/535 5 0 536 5 0 537 5 0 749 5 0 281 5 0 723 5 0 394 5 0 136 5 0/5/8",
+				"Bulletin Board/32": "Field Research/BO 20 1/535 5 0 536 5 0 537 5 0 749 5 0 281 5 0 723 5 0 394 5 0 136 5 0/5/8/Field Research",
 				//Field Research, requires 8 out of 8, rewards 1 crystalarium
 				//Uses geodes, frozen geodes, magma geodes, omni geode, chanterelle, oyster, rainbow shell, largemouth bass
-				"Bulletin Board/33": "Enchanter's/R 524 1/422 5 0 768 5 0 769 5 0 155 5 0 446 5 0 82 5 0 561 5 0/1/6",
+				"Bulletin Board/33": "Enchanter's/R 524 1/422 5 0 768 5 0 769 5 0 155 5 0 446 5 0 82 5 0 561 5 0/1/6/Enchanter's",
 				//Enchanter's, requires 6 out of 6, rewards 1 ring of yoba
 				//Uses purple mushroom, solar essence, void essence, super cucumber, fire quartz, ghost crystal
-				"Bulletin Board/34": "Dye/O 347 10/400 5 0 433 5 0 258 5 0 268 5 0 274 5 0 284 5 0 280 5 0 382 5 0/6/8",
+				"Bulletin Board/34": "Dye/O 347 10/400 5 0 433 5 0 258 5 0 268 5 0 274 5 0 284 5 0 280 5 0 382 5 0/6/8/Dye",
 				//Dye, requires 8 out of 8, rewards 10 rare seeds
 				//Uses strawberry, beets, blueberry, yam, coffee, coal, starfruit, artichoke
-				"Bulletin Board/35": "Fodder/O 107 5/270 5 0 276 5 0 300 5 0 262 5 0 250 5 0 421 5 0 264 5 0 613 5 0/3/8",
+				"Bulletin Board/35": "Fodder/O 107 5/270 5 0 276 5 0 300 5 0 262 5 0 250 5 0 421 5 0 264 5 0 613 5 0/3/8/Fodder",
 				//Fodder, requires 8 ouf of 8, rewards 5 dino eggs
 				//Uses corn, wheat, amaranth, sunflower, radish, kale, pumpkin, apple
 				
 			},
 		},
+
+		//Translation compat
+
+		{
+			"LogName": "Spanish Bundle Names",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Fields": {
+				"Pantry/0": {
+					"5": "Cultivos de Primavera"
+					},
+				"Pantry/1": {
+					"5": "Cultivos de Verano"
+					},
+				"Pantry/2": {
+					"5": "Cultivos de Otoño"
+					},
+				"Pantry/3": {
+					"5": "Cultivos de Calidad"
+					},
+				"Pantry/4": {
+					"5": "Productos Animales"
+					},
+				"Pantry/5": {
+					"5": "Productos Artesanales"
+					},
+				"Fish Tank/6": {
+					"5": "Pescado de Primavera"
+					},
+				"Fish Tank/7": {
+					"5": "Pescado de Verano"
+					},
+				"Fish Tank/8": {
+					"5": "Pescado de Otoño"
+					},
+				"Fish Tank/9": {
+					"5": "Pescado de Invierno"
+					},
+				"Fish Tank/10": {
+					"5": "Pescado Especial"
+					},
+				"Fish Tank/11": {
+					"5": "Olla de Cangrejo"
+					},
+				"Crafts Room/13": {
+					"5": "Forrajeo de Primavera"
+					},
+				"Crafts Room/14": {
+					"5": "Forrajeo de Verano"
+					},
+				"Crafts Room/15": {
+					"5": "Forrajeo de Otoño"
+					},
+				"Crafts Room/16": {
+					"5": "Forrajeo de Calidad"
+					},
+				"Crafts Room/17": {
+					"5": "Construcción"
+					},
+				"Crafts Room/19": {
+					"5": "Elaboración"
+					},
+				"Boiler Room/20": {
+					"5": "Herrería"
+					},
+				"Boiler Room/21": {
+					"5": "Geologo"
+					},
+				"Boiler Room/22": {
+					"5": "Aventurero"
+					},
+				"Vault/23": {
+					"4": "4,000g"
+					},
+				"Vault/24": {
+					"4": "7,000g"
+					},
+				"Vault/25": {
+					"4": "14,000g"
+					},
+				"Vault/26": {
+					"4": "35,000g"
+					},
+				"Bulletin Board/31": {
+					"5": "Menú de Salón"
+					},
+				"Bulletin Board/32": {
+					"5": "Tema de Investigación"
+					},
+				"Bulletin Board/33": {
+					"5": "Encantador"
+					},
+				"Bulletin Board/34": {
+					"5": "Colorante"
+					},
+				"Bulletin Board/35": {
+					"5": "Pienso"
+					},
+				},
+			"When": {
+				"language": "es"
+			}
+		}
 
 	]
 }
