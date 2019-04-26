@@ -47,7 +47,7 @@
 				"Pantry/3": "Quality Crops/BO 12 1/24 5 2 250 5 2 400 5 2 258 5 2 260 5 2 256 5 2 278 5 2 282 5 2 398 5 2 272 5 2/2/8/Quality Crops",
 				//Quality Crops, needs 8 crops out of 10, rewards 1 keg
 				//Uses parsnips, strawberries, blueberries, hot peppers, tomatoes, bok choy, cranberries, grapes, eggplant, and kale
-				"Pantry/4": "Animal Products/BO 24 1/174 5 0 182 5 0 305 5 0 442 5 0 444 5 0 440 5 0 446 5 0 184 5 0 186 5 0 436 5 0 438 5 0 430 5 0/1/1/Animal Products",
+				"Pantry/4": "Animal Products/BO 24 1/174 5 0 182 5 0 305 5 0 442 5 0 444 5 0 440 5 0 446 5 0 184 5 0 186 5 0 436 5 0 438 5 0 430 5 0/1/10/Animal Products",
 				//Animal Products, needs 10 out of 12, rewards 1 mayo machine
 				//Uses large egg, large brown egg, void egg, duck egg, duck feather, wool, rabbits foot, milk, large milk, goat milk, large goat milk, and truffles
 				"Pantry/5": "Artisan Products/BO 165 1/348 5 0 303 5 0 346 5 0 459 5 0 395 5 0 424 5 0 426 5 0 428 5 0 307 5 0 432 5 0 342 5 0 344 5 0/0/12/Artisan Products",
@@ -142,7 +142,10 @@
 				"Vault/26": "35,000g/O 645 5/-1 35000 35000/1",
 				//Vault 4, requires 35,000G, rewards 5 iridium sprinklers
 				
-			},
+				},
+			"When": {
+				"language:es": false
+				},
 		},
 
 		{
