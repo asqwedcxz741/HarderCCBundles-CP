@@ -1,4 +1,4 @@
-Minerva's Harder Community Center Bundles - Version 1.1.4
+Minerva's Harder Community Center Bundles - Version 1.3.0
 Provides more challenging bundles for the community center
 
 :: Required Mods::
@@ -25,3 +25,7 @@ Ping me (@minervamaga#7344) on the SDV discord (https://discord.gg/stardewvalley
 Pathoschild for Content Patcher and SMAPI (https://www.nexusmods.com/stardewvalley/users/1552317)
 
 7yrsofbadluck's bundle mod for inspiration (https://www.nexusmods.com/stardewvalley/mods/1062)
+
+allanba182 for the Portuguese translations! (https://www.nexusmods.com/stardewvalley/users/63620951)
+
+exaferoy for the French translations! (https://www.nexusmods.com/stardewvalley/users/66080956)
