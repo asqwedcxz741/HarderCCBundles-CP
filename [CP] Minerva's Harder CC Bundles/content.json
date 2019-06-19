@@ -153,8 +153,8 @@
 				"Bulletin Board/31": "Saloon Menu/O 230 15/608 5 0 727 5 0 648 5 0 201 5 0 215 5 0 231 5 0 212 5 0 214 5 0/4/6/Saloon Menu",
 				//Saloon Menu, requires 6 out of 8, rewards 15 red plates
 				//Uses pumpkin pie, chowder, coleslaw, complete breakfast, pepper poppers, eggplant parmesan, salmon dinner, crispy bass
-				"Bulletin Board/32": "Field Research/BO 20 1/535 5 0 536 5 0 537 5 0 749 5 0 281 5 0 723 5 0 394 5 0 136 5 0/5/8/Field Research",
-				//Field Research, requires 8 out of 8, rewards 1 crystalarium
+				"Bulletin Board/32": "Field Research/BO 20 1/535 5 0 536 5 0 537 5 0 749 5 0 281 5 0 723 5 0 394 5 0 136 5 0/5/7/Field Research",
+				//Field Research, requires 7 out of 8, rewards 1 crystalarium
 				//Uses geodes, frozen geodes, magma geodes, omni geode, chanterelle, oyster, rainbow shell, largemouth bass
 				"Bulletin Board/33": "Enchanter's/R 524 1/422 5 0 768 5 0 769 5 0 155 5 0 446 5 0 82 5 0 561 5 0/1/6/Enchanter's",
 				//Enchanter's, requires 6 out of 6, rewards 1 ring of yoba
@@ -609,6 +609,117 @@
 				},
 			"When": {
 				"language": "zh"
+				},
+				
+		},
+
+		//Translation compat Korean by ba0109
+
+		{
+			"LogName": "Korean Bundle Names",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Fields": {
+				"Pantry/0": {
+					"5": "봄 작물"
+					},
+				"Pantry/1": {
+					"5": "여름 작물"
+					},
+				"Pantry/2": {
+					"5": "가을 작물"
+					},
+				"Pantry/3": {
+					"5": "고급 작물"
+					},
+				"Pantry/4": {
+					"5": "동물"
+					},
+				"Pantry/5": {
+					"5": "장인"
+					},
+				"Fish Tank/6": {
+					"5": "봄 물고기"
+					},
+				"Fish Tank/7": {
+					"5": "여름 물고기"
+					},
+				"Fish Tank/8": {
+					"5": "가을 물고기"
+					},
+				"Fish Tank/9": {
+					"5": "겨울 물고기"
+					},
+				"Fish Tank/10": {
+					"5": "특별한 물고기"
+					},
+				"Fish Tank/11": {
+					"5": "게잡이 통발"
+					},
+				"Crafts Room/13": {
+					"5": "봄 채집"
+					},
+				"Crafts Room/14": {
+					"5": "여름 채집"
+					},
+				"Crafts Room/15": {
+					"5": "가을 채집"
+					},
+				"Crafts Room/16": {
+					"5": "겨울 채집"
+					},
+				"Crafts Room/17": {
+					"5": "건축"
+					},
+				"Crafts Room/19": {
+					"5": "색다른 채집"
+					},
+				"Boiler Room/20": {
+					"5": "대장장이"
+					},
+				"Boiler Room/21": {
+					"5": "지질학자"
+					},
+				"Boiler Room/22": {
+					"5": "모험가"
+					},
+				"Bulletin Board/31": {
+					"5": "요리사"
+					},
+				"Bulletin Board/32": {
+					"5": "현장 조사원"
+					},
+				"Bulletin Board/33": {
+					"5": "연금술사"
+					},
+				"Bulletin Board/34": {
+					"5": "염색사"
+					},
+				"Bulletin Board/35": {
+					"5": "사육사"
+					},
+				},
+			"When": {
+				"language": "ko"
+			}
+		},
+
+		{
+			"LogName": "Vault Bundles Korean",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Vault/23": "4,000g/O 239 5/-1 4000 4000/4/4,000g",
+				//Vault 1, requires 4000G, rewards 5 stuffing
+				"Vault/24": "7,000g/O 288 30/-1 7000 7000/2/7,000g",
+				//Vault 2, requires 7000G, rewards 30 mega bombs
+				"Vault/25": "14,000g/BO 139 1/-1 14000 14000/3/14,000g",
+				//Vault 3, requires 14,000G, rewards 1 raccoon rarecrow
+				"Vault/26": "35,000g/O 645 5/-1 35000 35000/1/35,000g",
+				//Vault 4, requires 35,000G, rewards 5 iridium sprinklers
+				},
+			"When": {
+				"language": "ko"
 				},
 				
 		},
