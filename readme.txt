@@ -1,4 +1,4 @@
-Minerva's Harder Community Center Bundles - Version 1.5.0
+Minerva's Harder Community Center Bundles - Version 1.6.0
 Provides more challenging bundles for the community center
 
 :: Required Mods::
@@ -14,7 +14,11 @@ Content Patcher (https://www.nexusmods.com/stardewvalley/mods/1915)
 1. Download and install the latest version of SMAPI
 2. Download and install the latest version of Content Patcher
 3. Copy '[CP] Minerva's Harder CC Bundles folder to Mods
-4. You're done!
+4. Run the game once to generate the config.json, see options below.
+5. You're done!
+
+:: Config Options ::
+DifficultyLevel: choose from "easy", "regular", or "hard".  Defaults to regular.
 
 :: Contact Info::
 Post a comment on the Nexus page for this mod (https://www.nexusmods.com/stardewvalley/mods/3444)
@@ -33,3 +37,5 @@ exaferoy for the French translations! (https://www.nexusmods.com/stardewvalley/u
 1142904694cute for the Chinese translations! (https://www.nexusmods.com/users/47316153)
 
 ba0109 for the Korean translations! (http://www.nexusmods.com/users/60094366)
+
+Jeardius for the German translations! (https://www.nexusmods.com/users/2796938)
