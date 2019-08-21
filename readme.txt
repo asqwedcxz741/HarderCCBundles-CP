@@ -1,4 +1,4 @@
-Minerva's Harder Community Center Bundles - Version 1.6.0
+Minerva's Harder Community Center Bundles - Version 1.7.0
 Provides more challenging bundles for the community center
 
 :: Required Mods::
