@@ -149,7 +149,7 @@
 				//Uses blobfish, ghostfish, sandfish, stonefish, ice pip, scorpion carp, lava eel
 				"Fish Tank/11": "Crab Pot/O 732 5/372 5 0 715 5 0 716 5 0 717 5 0 718 5 0 719 5 0 720 5 0 721 5 0 722 5 0 723 5 0/1/8/Crab Pot",
 				//Crab pot, requires 8 out of 10, rewards 5 crab cakes
-				//Uses lobster, clam, crayfish, crab, cockle, mussel, shrimp, snail, periwinkle, osyter
+				//Uses lobster, clam, crayfish, crab, cockle, mussel, shrimp, snail, periwinkle, oyster
 
 				},
 			"When": {
@@ -179,7 +179,7 @@
 				//Uses blobfish, ghostfish, sandfish, stonefish, ice pip, scorpion carp
 				"Fish Tank/11": "Crab Pot/O 732 5/372 5 0 716 5 0 717 5 0 718 5 0 720 5 0 721 5 0 722 5 0 723 5 0/1/6/Crab Pot",
 				//Crab pot, requires 6 out of 8, rewards 5 crab cakes
-				//Uses clam, crayfish, crab, mussel, shrimp, snail, periwinkle, osyter
+				//Uses clam, crayfish, crab, mussel, shrimp, snail, periwinkle, oyster
 
 				},
 			"When": {
