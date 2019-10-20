@@ -1,4 +1,4 @@
-Minerva's Harder Community Center Bundles - Version 1.7.0
+Minerva's Harder Community Center Bundles - Version 1.8.0
 Provides more challenging bundles for the community center
 
 :: Required Mods::
@@ -39,3 +39,5 @@ exaferoy for the French translations! (https://www.nexusmods.com/stardewvalley/u
 ba0109 for the Korean translations! (http://www.nexusmods.com/users/60094366)
 
 Jeardius for the German translations! (https://www.nexusmods.com/users/2796938)
+
+OJ for the new mode! (https://www.nexusmods.com/users/53374581)

@@ -1,10 +1,10 @@
 {
-	"Format": "1.6",
+	"Format": "1.9",
 
 	"ConfigSchema": {
 
 		"DifficultyLevel": {
-			"AllowValues": "easy, regular, hard",
+			"AllowValues": "easy, regular, hard, OJRebalance",
 			"Default": "regular",
 			"AllowBlank": false
 			}
@@ -128,6 +128,36 @@
 		},
 
 		{
+            "LogName": "Pantry Bundles 0-5 Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Pantry/0": "Spring Crops/O 621 3/190 5 0 24 10 0 192 5 0 400 5 0 250 5 0 188 5 0 252 5 0 433 20 0 248 5 0/5/7/Spring Crops",
+                    //Spring Crops, needs 7 crops out of 9, rewards 3 quality sprinklers
+                    //Uses cauliflower, parsnips, potatoes, strawberries, kale, green beans, rhubarb, coffee beans, and garlic
+                "Pantry/1": "Summer Crops/BO 25 1/264 10 0 258 10 0 270 10 0 304 5 0 260 5 0 254 5 0 266 5 0 268 5 0 256 5 0/4/8/Summer Crops",
+                    //Summer Crops, needs 8 crops out of 9, rewards 1 seed maker
+                    //Uses radish, blueberries, corn, hops, hot peppers, melon, red cabbage, starfruit, and tomatoes
+                "Pantry/2": "Fall Crops/O 629 1/300 5 0 274 5 0 284 5 0 278 10 0 282 20 0 272 5 0 276 5 0 280 5 0 262 20 0/3/8/Fall Crops",
+                    //Fall Crops, needs 8 crops out of 9, rewards 1 apricot sapling
+                    //Uses amaranth, artichoke, beets, bok choy, cranberries, eggplant, pumpkins, wheat, and yams
+                "Pantry/3": "Quality Crops/O 681 10/24 5 2 250 5 2 272 5 2 400 5 2 258 5 2 260 5 2 256 5 2 278 5 2 282 5 2 270 10 2/2/8/Quality Crops",
+                    //Quality Crops, needs 8 crops out of 10, rewards 10 rain totems
+                    //Uses parsnips, strawberries, kale, blueberries, hot peppers, tomatoes, bok choy, cranberries, eggplant, and corn
+                "Pantry/4": "Animal Products/O 107 5/174 10 0 182 10 0 305 5 0 442 5 0 444 3 0 440 5 0 446 3 0 184 5 0 186 5 0 436 5 0 438 5 0 430 5 0/1/9/Animal Products",
+                    //Animal Products, needs 9 out of 12, rewards 5 dinosaur eggs
+                    //Uses large egg, large brown egg, void egg, duck egg, duck feather, wool, rabbits foot, milk, large milk, goat milk, large goat milk, and truffles
+                "Pantry/5": "Artisan Products/O 499 10/348 5 0 303 5 0 346 5 0 459 5 0 395 5 0 424 5 2 426 5 2 428 5 0 307 5 0 432 5 0 342 5 0 344 5 0/0/11/Artisan Products",
+                    //Artisan Products, needs 11 out of 12, rewards 10 ancient seeds
+                    //Uses wine, pale ale, beer, mead, coffee, cheese, goat cheese, cloth, duck mayo, truffle oil, pickles, and jelly
+ 
+                },
+            "When": {
+                "DifficultyLevel": "OJRebalance"
+                }
+        },
+
+		{
 			"LogName": "Fish Tank Bundles 6-11 Regular",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
@@ -149,7 +179,7 @@
 				//Uses blobfish, ghostfish, sandfish, stonefish, ice pip, scorpion carp, lava eel
 				"Fish Tank/11": "Crab Pot/O 732 5/372 5 0 715 5 0 716 5 0 717 5 0 718 5 0 719 5 0 720 5 0 721 5 0 722 5 0 723 5 0/1/8/Crab Pot",
 				//Crab pot, requires 8 out of 10, rewards 5 crab cakes
-				//Uses lobster, clam, crayfish, crab, cockle, mussel, shrimp, snail, periwinkle, oyster
+				//Uses lobster, clam, crayfish, crab, cockle, mussel, shrimp, snail, periwinkle, osyter
 
 				},
 			"When": {
@@ -179,7 +209,7 @@
 				//Uses blobfish, ghostfish, sandfish, stonefish, ice pip, scorpion carp
 				"Fish Tank/11": "Crab Pot/O 732 5/372 5 0 716 5 0 717 5 0 718 5 0 720 5 0 721 5 0 722 5 0 723 5 0/1/6/Crab Pot",
 				//Crab pot, requires 6 out of 8, rewards 5 crab cakes
-				//Uses clam, crayfish, crab, mussel, shrimp, snail, periwinkle, oyster
+				//Uses clam, crayfish, crab, mussel, shrimp, snail, periwinkle, osyter
 
 				},
 			"When": {
@@ -216,6 +246,36 @@
 				"DifficultyLevel": "hard"
 				},
 		},
+
+		{
+            "LogName": "Fish Tank Bundles 6-11 Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Fish Tank/6": "Spring Fish/BO 154 1/129 5 0 131 5 0 132 5 0 143 5 0 137 5 0 147 5 0 145 5 0 148 5 0 706 5 0 708 5 0/6/7/Spring Fish",
+                    //Spring fish, needs 7 out of 9, rewards 1 worm bin
+                    //Uses anchovy, sardine, bream, smallmouth bass, herring, sunfish, eel, shad, halibut
+                "Fish Tank/7": "Summer Fish/BO 154 1/138 5 0 704 5 0 128 5 0 149 5 0 701 5 0 155 5 0 150 5 0 146 5 0/0/7/Summer Fish",
+                    //Summer fish, needs 7 out of 8, also rewards 1 worm bin, intentional duplicate
+                    //Uses rainbow trout, dorado, pufferfish, octopus, tilapia, super cucumber, red snapper, red mullet
+                "Fish Tank/8": "Fall Fish/O 687 3/139 5 0 154 5 0 699 5 0 705 5 0 140 5 0 136 5 0 734 5 0 700 5 0 142 5 0/5/7/Fall Fish",
+                    //Fall fish, requires 7 out of 9, rewards 3 dressed spinners
+                    //Uses salmon, sea cucumber, tiger trout, albacore, walleye, largemouth bass, woodskip, bullhead, carp
+                "Fish Tank/9": "Winter Fish/O 694 5/144 5 0 130 5 0 698 5 0 141 5 0 151 5 0 707 5 0 702 5 0 798 5 0 799 5 0/1/7/Winter Fish",
+                    //Winter fish, requires 7 out of 9, rewards 5 trap bobbers
+                    //Uses pike, tuna, sturgeon, perch, squid, lingcod, chub, midnight squid, spook fish
+                "Fish Tank/10": "Specialty Fish/O 730 5/156 10 0 164 5 0 158 5 0 161 5 0 165 5 0 162 5 0/4/6/Specialty Fish",
+                    //Specialty fish, requires 6 out of 6, rewards 5 lobster bisque
+                    //Uses ghostfish, sandfish, stonefish, ice pip, scorpion carp, lava eel
+                "Fish Tank/11": "Crab Pot/BO 20 1/372 5 0 715 3 0 716 5 0 717 5 0 718 5 0 719 5 0 720 3 0 721 5 0 722 5 0 723 5 0/1/10/Crab Pot",
+                    //Crab pot, requires 10 out of 10, rewards 1 recycling machine
+                    //Uses lobster, clam, crayfish, crab, cockle, mussel, shrimp, snail, periwinkle, oyster
+ 
+                },
+            "When": {
+                "DifficultyLevel": "OJRebalance"
+                }
+        },
 
 		{
 			"LogName": "Crafts Room Bundles 13-19 Regular",
@@ -305,6 +365,35 @@
 		},
 
 		{
+            "LogName": "Crafts Room Bundles 13-19 Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Crafts Room/13": "Spring Foraging/O 241 5/16 5 0 18 5 0 20 5 0 22 5 0 399 5 0 296 20 0 78 5 0 153 5 0/0/8/Spring Foraging",
+                    //Spring foraging, requires 8 out of 8, rewards 5 survival burgers
+                    //Uses wild horseradish, daffodil, leek, dandelion, spring onion, salmonberry, cave carrot, green algae
+                "Crafts Room/14": "Summer Foraging/O 486 20/396 5 0 398 5 0 402 5 0 259 5 0 394 3 0 88 5 0 90 5 0 152 5 0/3/8/Summer Foraging",
+                    //Summer foraging, requires 8 out of 8, rewards 20 starfruit seeds
+                    //Uses spice berry, grape, sweet pea, fiddlehead fern, rainbow shell, coconut, cactus fruit, seaweed
+                "Crafts Room/15": "Fall Foraging/O 773 5/406 5 0 408 5 0 410 20 0 281 5 0 404 5 0 420 5 0 393 5 0 157 5 0/2/8/Fall Foraging",
+                    //Fall foraging, requires 8 out of 8, rewards 5 life elixirs
+                    //Uses wild plum, hazelnut, blackberry, chanterelle, common mushroom, red mushroom, coral, white algae
+                "Crafts Room/16": "Winter Foraging/BO 160 1/412 10 0 414 5 0 416 5 0 418 5 0 283 5 0 392 5 0 397 5 0 422 5 0/6/8/Winter Foraging",
+                    //Winter foraging, requires 8 out of 8, rewards Statue of Perfection
+                    //Uses winter root, crystal fruit, snow yam, crocus, holly, nautilus shell, sea urchin, purple mushroom
+                "Crafts Room/17": "Construction/BO 114 1/388 99 0 388 99 0 390 99 0 390 99 0 709 10 0 709 10 0 330 10 0 771 10 0/4/8/Construction",
+                    //Construction, requires 8 out of 8, rewards 1 charcoal kiln
+                    //Uses wood x2, stone x2, hardwood x2, clay, fiber
+                "Crafts Room/19": "Crafting/O 725 50/724 5 0 725 5 0 726 5 0 787 3 0 92 250 0/1/5/Crafting",
+                    //Crafting, requires 5 out of 5, rewards 50 oak resin
+                    //Uses maple syrup, oak resin, pine tar, battery pack, sap
+                },
+            "When": {
+                "DifficultyLevel": "OJRebalance"
+                }
+        },
+
+		{
 			"LogName": "Boiler Room Bundles 20-22 Regular",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
@@ -365,6 +454,26 @@
 		},
 
 		{
+            "LogName": "Boiler Room Bundles 20-22 Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Boiler Room/20": "Blacksmith's/O 382 100/334 5 0 335 5 0 336 5 0 337 5 0 378 5 0 380 5 0 384 5 0 386 5 0/2/7/Blacksmith's",
+                    //Blacksmith, requires 7 out of 8, rewards 100 coal
+                    //Uses copper bar, iron bar, gold bar, iridium bar, copper ore, iron ore, gold ore, iridium ore
+                "Boiler Room/21": "Geologist's/O 74 2/68 5 0 66 5 0 62 5 0 70 5 0 60 5 0 64 5 0 72 5 0/1/7/Geologist's",
+                    //Geologist's, requires 7 out of 7, rewards 2 prismatic shards
+                    //Uses topaz, amethyst, aquamarine, jade, emerald, ruby, diamond
+                "Boiler Room/22": "Adventurer's/O 688 10/766 50 0 684 25 0 767 25 0 768 10 0 769 10 0/1/5/Adventurer's",
+                    //Adventurer's, requires 5 out of 5, rewards 10 farm warp totems
+                    //Uses bug meat, slime, bat wing, solar essence, void essence
+                    },
+            "When": {
+                "DifficultyLevel": "OJRebalance"
+                    }
+        },
+
+		{
 			"LogName": "Vault Bundles 23-26 Regular",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
@@ -420,6 +529,25 @@
 				"DifficultyLevel": "hard"
 					},
 		},
+
+		{
+            "LogName": "Vault Bundles 23-26 Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Vault/23": "4,000g/O 466 50/-1 4000 4000/4",
+                    //Vault 1, requires 4000G, rewards 50 deluxe speed-gro
+                "Vault/24": "7,000g/O 288 50/-1 7000 7000/2",
+                    //Vault 2, requires 7000G, rewards 50 mega bombs
+                "Vault/25": "14,000g/O 335 100/-1 14000 14000/3",
+                    //Vault 3, requires 14,000G, rewards 100 iron bars
+                "Vault/26": "35,000g/O 645 5/-1 35000 35000/1",
+                    //Vault 4, requires 35,000G, rewards 5 iridium sprinklers
+                    },
+            "When": {
+                "DifficultyLevel": "OJRebalance"
+                    }
+        },
 
 		{
 			"LogName": "Bulletin Board Bundles 31-35 Regular",
@@ -498,6 +626,32 @@
 				"DifficultyLevel": "hard"
 					},
 		},
+
+		{
+            "LogName": "Bulletin Board Bundles 31-35 Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Bulletin Board/31": "Saloon Menu/O 236 15/239 5 0 727 5 0 197 5 0 215 5 0 231 5 0 212 5 0 198 5 0 208 5 0 605 5 0 202 5 0/4/7/Saloon Menu",
+                    //Saloon Menu, requires 7 out of 10, rewards 15 pumpkin soup
+                    //Uses stuffing, chowder, cheese cauliflower, pepper poppers, eggplant parmesan, salmon dinner, baked fish, glazed yams, artichoke dip, fried calamari
+                "Bulletin Board/32": "Field Research/BO 20 1/535 10 0 536 10 0 537 5 0 749 5 0 281 5 0 723 10 0 393 10 0 136 5 0/5/7/Field Research",
+                    //Field Research, requires 7 out of 8, rewards 1 crystalarium
+                    //Uses geodes, frozen geodes, magma geodes, omni geode, chanterelle, oyster, coral, largemouth bass
+                "Bulletin Board/33": "Enchanter's/R 524 1/422 5 0 768 5 0 769 5 0 155 5 0 82 5 0 561 5 0 769 5 0/1/6/Enchanter's",
+                    //Enchanter's, requires 6 out of 7, rewards 1 ring of yoba
+                    //Uses purple mushroom, solar essence, void essence, super cucumber, fire quartz, ghost crystal, void mayonnaise
+                "Bulletin Board/34": "Dye/O 347 10/400 5 0 433 20 0 258 20 0 637 5 0 274 5 0 721 20 0 284 10 0 280 5 0/6/7/Dye",
+                    //Dye, requires 7 out of 8, rewards 10 rare seeds
+                    //Uses strawberry, beets, blueberry, yam, coffee beans, snail, pomegranate, artichoke
+                "Bulletin Board/35": "Fodder/BO 165 1/270 10 0 276 10 0 300 5 0 262 10 0 250 5 0 421 10 0 264 5 0 613 5 0/3/8/Fodder",
+                    //Fodder, requires 8 out of 8, rewards 1 auto grabber
+                    //Uses corn, wheat, amaranth, sunflower, radish, kale, pumpkin, apple
+                    },
+            "When": {
+                "DifficultyLevel": "OJRebalance"
+                    }
+        }
 
 		//Translation compat Spanish
 
@@ -651,6 +805,26 @@
 					},
 		},
 
+		{
+            "LogName": "Vault Bundles 23-26 Spanish Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Vault/23": "4,000g/O 466 50/-1 4000 4000/4/4,000g",
+                    //Vault 1, requires 4000G, rewards 50 deluxe speed-gro
+                "Vault/24": "7,000g/O 288 50/-1 7000 7000/2/7,000g",
+                    //Vault 2, requires 7000G, rewards 50 mega bombs
+                "Vault/25": "14,000g/O 335 100/-1 14000 14000/3/14,000g",
+                    //Vault 3, requires 14,000G, rewards 100 iron bars
+                "Vault/26": "35,000g/O 645 5/-1 35000 35000/1/35,000g",
+                    //Vault 4, requires 35,000G, rewards 5 iridium sprinklers
+                    },
+            "When": {
+				"language": "es",
+                "DifficultyLevel": "OJRebalance"
+                    }
+        },
+
 		//Translation compat Portuguese - Thanks to allanba182 for the translations!
 
 		{
@@ -802,6 +976,26 @@
 				"DifficultyLevel": "hard"
 					},
 		},
+
+		{
+            "LogName": "Vault Bundles 23-26 Portuguese Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Vault/23": "4,000g/O 466 50/-1 4000 4000/4/4,000g",
+                    //Vault 1, requires 4000G, rewards 50 deluxe speed-gro
+                "Vault/24": "7,000g/O 288 50/-1 7000 7000/2/7,000g",
+                    //Vault 2, requires 7000G, rewards 50 mega bombs
+                "Vault/25": "14,000g/O 335 100/-1 14000 14000/3/14,000g",
+                    //Vault 3, requires 14,000G, rewards 100 iron bars
+                "Vault/26": "35,000g/O 645 5/-1 35000 35000/1/35,000g",
+                    //Vault 4, requires 35,000G, rewards 5 iridium sprinklers
+                    },
+            "When": {
+				"language": "pt",
+                "DifficultyLevel": "OJRebalance"
+                    }
+        },
 
 		//Translation compat French by Exaferoy
 
@@ -955,6 +1149,26 @@
 					},
 		},
 
+		{
+            "LogName": "Vault Bundles 23-26 French Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Vault/23": "4,000g/O 466 50/-1 4000 4000/4/4,000po",
+                    //Vault 1, requires 4000G, rewards 50 deluxe speed-gro
+                "Vault/24": "7,000g/O 288 50/-1 7000 7000/2/7,000po",
+                    //Vault 2, requires 7000G, rewards 50 mega bombs
+                "Vault/25": "14,000g/O 335 100/-1 14000 14000/3/14,000po",
+                    //Vault 3, requires 14,000G, rewards 100 iron bars
+                "Vault/26": "35,000g/O 645 5/-1 35000 35000/1/35,000po",
+                    //Vault 4, requires 35,000G, rewards 5 iridium sprinklers
+                    },
+            "When": {
+				"language": "fr",
+                "DifficultyLevel": "OJRebalance"
+                    }
+        },
+
 		//Translation compat Chinese by 1142904694cute
 
 		{
@@ -1106,6 +1320,26 @@
 				"DifficultyLevel": "hard"
 					},
 		},
+
+		{
+            "LogName": "Vault Bundles 23-26 Chinese Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Vault/23": "4,000g/O 466 50/-1 4000 4000/4/4,000g",
+                    //Vault 1, requires 4000G, rewards 50 deluxe speed-gro
+                "Vault/24": "7,000g/O 288 50/-1 7000 7000/2/7,000g",
+                    //Vault 2, requires 7000G, rewards 50 mega bombs
+                "Vault/25": "14,000g/O 335 100/-1 14000 14000/3/14,000g",
+                    //Vault 3, requires 14,000G, rewards 100 iron bars
+                "Vault/26": "35,000g/O 645 5/-1 35000 35000/1/35,000g",
+                    //Vault 4, requires 35,000G, rewards 5 iridium sprinklers
+                    },
+            "When": {
+				"language": "zh",
+                "DifficultyLevel": "OJRebalance"
+                    }
+        },
 
 		//Translation compat Korean by ba0109
 
@@ -1259,6 +1493,26 @@
 					},
 		},
 
+		{
+            "LogName": "Vault Bundles 23-26 Korean Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Vault/23": "4,000g/O 466 50/-1 4000 4000/4/4,000g",
+                    //Vault 1, requires 4000G, rewards 50 deluxe speed-gro
+                "Vault/24": "7,000g/O 288 50/-1 7000 7000/2/7,000g",
+                    //Vault 2, requires 7000G, rewards 50 mega bombs
+                "Vault/25": "14,000g/O 335 100/-1 14000 14000/3/14,000g",
+                    //Vault 3, requires 14,000G, rewards 100 iron bars
+                "Vault/26": "35,000g/O 645 5/-1 35000 35000/1/35,000g",
+                    //Vault 4, requires 35,000G, rewards 5 iridium sprinklers
+                    },
+            "When": {
+				"language": "ko",
+                "DifficultyLevel": "OJRebalance"
+                    }
+        },
+
 		//Translation compat German - thanks to Jeardius for the translations!
 
 		{
@@ -1410,6 +1664,26 @@
 				"DifficultyLevel": "hard"
 					},
 		},
+
+		{
+            "LogName": "Vault Bundles 23-26 German Rebalanced",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Vault/23": "4,000g/O 466 50/-1 4000 4000/4/4,000g",
+                    //Vault 1, requires 4000G, rewards 50 deluxe speed-gro
+                "Vault/24": "7,000g/O 288 50/-1 7000 7000/2/7,000g",
+                    //Vault 2, requires 7000G, rewards 50 mega bombs
+                "Vault/25": "14,000g/O 335 100/-1 14000 14000/3/14,000g",
+                    //Vault 3, requires 14,000G, rewards 100 iron bars
+                "Vault/26": "35,000g/O 645 5/-1 35000 35000/1/35,000g",
+                    //Vault 4, requires 35,000G, rewards 5 iridium sprinklers
+                    },
+            "When": {
+				"language": "de",
+                "DifficultyLevel": "OJRebalance"
+                    }
+        },
 
 	]
 }

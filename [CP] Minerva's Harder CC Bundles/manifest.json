@@ -1,10 +1,10 @@
 {
    "Name": "Minerva's Harder CC Bundles",
    "Author": "minervamaga",
-   "Version": "1.7.0",
+   "Version": "1.8.0",
    "Description": "Harder, but still reasonable Community Center Bundles",
    "UniqueID": "minervamaga.CP.HarderCCBundles",
-   "MinimumApiVersion": "2.10",
+   "MinimumApiVersion": "2.11",
    "UpdateKeys": ["Nexus:3444"],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
