@@ -1,9 +1,10 @@
-Minerva's Harder Community Center Bundles - Version 1.8.0
+Minerva's Harder Community Center Bundles - Version 1.10.0
 Provides more challenging bundles for the community center
 
 :: Required Mods::
 SMAPI (https://smapi.io/)
 Content Patcher (https://www.nexusmods.com/stardewvalley/mods/1915)
+PPJA (https://www.nexusmods.com/stardewvalley/users/26612284?tab=user+files) (for PPJA option)
 
 :: What This Mod Changes::
 -Varies items needed for all bundles, as well as increasing quantities needed
@@ -18,7 +19,7 @@ Content Patcher (https://www.nexusmods.com/stardewvalley/mods/1915)
 5. You're done!
 
 :: Config Options ::
-DifficultyLevel: choose from "easy", "regular", or "hard".  Defaults to regular.
+DifficultyLevel: choose from "easy", "regular", "hard", "PPJA", or "OJRebalance".  Defaults to regular.
 
 :: Contact Info::
 Post a comment on the Nexus page for this mod (https://www.nexusmods.com/stardewvalley/mods/3444)
